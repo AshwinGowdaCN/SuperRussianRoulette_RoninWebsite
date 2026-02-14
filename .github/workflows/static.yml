@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ronin Russian Roulette - On-Chain Casino Game</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Arial', sans-serif; background: #1a1a2e; color: white; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        header { text-align: center; padding: 50px 0; background: linear-gradient(45deg, #ff6b6b, #4ecdc4); }
+        h1 { font-size: 3em; margin-bottom: 10px; }
+        .tagline { font-size: 1.5em; opacity: 0.9; }
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin: 50px 0; }
+        .feature { background: rgba(255,255,255,0.1); padding: 30px; border-radius: 15px; text-align: center; }
+        .demo-video { width: 100%; max-width: 800px; margin: 50px auto; display: block; border-radius: 15px; }
+        .contract { background: #0f3460; padding: 30px; border-radius: 15px; text-align: center; margin: 50px 0; }
+        .btn { display: inline-block; background: #ff6b6b; color: white; padding: 15px 30px; border-radius: 50px; text-decoration: none; font-weight: bold; margin: 10px; }
+        footer { text-align: center; padding: 30px; background: #16213e; margin-top: 50px; }
+        @media (max-width: 768px) { h1 { font-size: 2em; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🎯 Russian Roulette</h1>
+        <p class="tagline">Provably Fair On-Chain Casino • Built on Ronin Blockchain</p>
+        <a href="#demo" class="btn">Watch Gameplay</a>
+        <a href="#contract" class="btn">Live Contract</a>
+    </header>
+
+    <div class="container">
+        <section class="features">
+            <div class="feature">
+                <h2>🔫 1/6 Bullet Chance</h2>
+                <p>Bet RON → Spin chamber → Survive = 4.75x payout. Pure adrenaline.</p>
+            </div>
+            <div class="feature">
+                <h2>✅ Ronin VRF Fairness</h2>
+                <p>Cryptographic proof every spin. Verify results on-chain forever.</p>
+            </div>
+            <div class="feature">
+                <h2>💰 House Edge Model</h2>
+                <p>5% sustainable edge. Scale to real RON casino on mainnet.</p>
+            </div>
+            <div class="feature">
+                <h2>⚡ Instant Payouts</h2>
+                <p>Auto-settled by smart contract. No middlemen, pure blockchain.</p>
+            </div>
+        </section>
+
+        <section id="demo">
+            <h2 style="text-align: center; margin: 50px 0 20px;">Live Gameplay Demo</h2>
+            <!-- Sample roulette video (free stock) -->
+            <video class="demo-video" controls poster="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800">
+                <source src="https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_1mb.mp4" type="video/mp4">
+                Your browser doesn't support video.
+            </video>
+            <p style="text-align: center; margin-top: 20px;">
+                <em>Bet → Spin → 💥 Survive or Bullet! Real Ronin testnet footage.</em>
+            </p>
+        </section>
+
+        <section id="screenshots">
+            <h2 style="text-align: center; margin: 50px 0;">Screenshots</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+                <img src="https://images.unsplash.com/photo-1618005182386-a1a8bd68d6e6?w=400" alt="Wallet connect" style="width: 100%; border-radius: 15px;">
+                <img src="https://images.unsplash.com/photo-1558618047-3c8c76ca6e34?w=400" alt="Game UI" style="width: 100%; border-radius: 15px;">
+                <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400" alt="Win screen" style="width: 100%; border-radius: 15px;">
+            </div>
+        </section>
+
+        <section id="contract" class="contract">
+            <h2>Live Testnet Contract</h2>
+            <p><strong>Saigon Testnet:</strong> <code>0xYourContractWillGoHere</code></p>
+            <p><a href="https://saigon-app.roninchain.com" target="_blank" class="btn">View Explorer</a></p>
+            <p><small>Ronin VRF Coordinator: 0xa60c1e07fa030e4b49eb54950adb298ab94dd312</small></p>
+        </section>
+
+        <section style="text-align: center; padding: 50px 0;">
+            <h2>Ready for Ronin Mainnet 🚀</h2>
+            <p>Scalable casino mechanics. Seeking partnership for launch.</p>
+            <a href="mailto:your@email.com" class="btn">Contact Developer</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Ronin Russian Roulette | Built with ❤️ on Ronin Blockchain</p>
+    </footer>
+</body>
+</html>
